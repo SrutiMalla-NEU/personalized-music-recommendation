@@ -14,12 +14,12 @@ The system uses a relational MySQL schema that includes users, tracks, artists, 
 
 ## Key Features
 
--**Normalized MySQL** schema across users, tracks, albums, artists, genres, and playlists
--**SQL Views** for personalized recommendations, trending artists, and genre-based analytics
--**Stored Procedures** for playlist creation and batch inserts
--**Triggers** for automatic timestamping and playlist integrity
--Sample data simulating real-world user behavior via user_interactions
--Cleanly written schema with primary/foreign keys and **indexing** logic
+- **Normalized MySQL** schema across users, tracks, albums, artists, genres, and playlists
+- **SQL Views** for personalized recommendations, trending artists, and genre-based analytics
+- **Stored Procedures** for playlist creation and batch inserts
+- **Triggers** for automatic timestamping and playlist integrity
+- Sample data simulating real-world user behavior via user_interactions
+- Cleanly written schema with primary/foreign keys and **indexing** logic
 ---
 
 ## Tech Stack
