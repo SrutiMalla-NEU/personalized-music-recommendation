@@ -14,11 +14,10 @@ The system uses a relational MySQL schema that includes users, tracks, artists, 
 
 ## Key Features
 
-- **Normalized relational schema** for scalable design
-- **Views** for personalized recommendations, popular tracks, and artist trends
-- Uses SQL **views** to simulate dynamic recommendation logic
-- Includes sample data for users, tracks, playlists, and more
-- Designed for analytics, reporting, and further extension
+-**Normalized relational schema** for scalable design
+-**SQL view**s used for personalized recommendations, trending tracks, and artist insights
+-Preloaded sample data for users, tracks, playlists, and interactions
+-Designed for analytics, reporting, and future feature extension
 
 ---
 
@@ -41,16 +40,6 @@ mysql -u root -p recommendationsystem < recommendation_dump.sql
 
 # 3. Open your database in DBeaver or any MySQL client to browse tables, views, and run queries
 ```
-
-## Repository Contents
-------------------------------------------------------------------
-| File                    | Description                          |
-|-------------------------|--------------------------------------|
-| recommendation_dump.sql | Full MySQL schema with sample data   |
-| README.md               | Project documentation and setup steps|
-------------------------------------------------------------------
----
-
 ## Sample Tables
 
 - `users` – User profile and metadata  
